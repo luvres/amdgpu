@@ -3,7 +3,13 @@
 
 ### Run
 
-#### Simpleco.in - Default
+#### clinfo
+```
+docker run -ti --rm --name AMGGPU \
+--device /dev/kfd \
+--device /dev/dri \
+izone/amdgpu clinfo
+```
 ```
 docker run -ti --rm --name AMGGPU \
 --device /dev/kfd \

@@ -10,7 +10,7 @@ RUN \
 	&& dpkg --add-architecture i386 \
 	&& apt-get update \
 	&& apt-get --no-install-recommends install -y \
-		ca-certificates curl xz-utils \
+		ca-certificates curl xz-utils clinfo \
 		build-essential cmake \
 		libmicrohttpd-dev libuv1-dev ocl-icd-opencl-dev \
   \
@@ -25,3 +25,5 @@ RUN \
 	&& apt-get -y autoremove \
 	&& apt-get clean autoclean \
 	&& rm -fR /var/lib/{apt,dpkg,cache,log}
+
+WORKDIR /root
