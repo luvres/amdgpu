@@ -4,6 +4,10 @@ MAINTAINER Leonardo Loures <luvres@hotmail.com>
 ## References:
 # https://github.com/xmrig/xmrig-amd
 # https://github.com/calvintam236/docker_ubuntu
+## Bionic 18.04
+# https://www2.ati.com/drivers/linux/ubuntu/18.04/amdgpu-pro-18.20-606296.tar.xz
+## Xenial 16.04
+# https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-18.20-606296.tar.xz
 
 RUN \
 	cd \
