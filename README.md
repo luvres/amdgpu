@@ -25,7 +25,7 @@ izone/amdgpu bash
 docker build -t izone/amdgpu .
 ```
 ```
-docker build -t izone/amdgpu:17.40.2712 .
+docker build -t izone/amdgpu:17.40.2712 -f Dockerfile_17.40.2712 .
 ```
 ```
 docker build -t izone/amdgpu:18.20-606296 .
