@@ -9,11 +9,16 @@ docker run -ti --rm --name AMGGPU \
 --device /dev/dri \
 izone/amdgpu clinfo
 ```
+#### Version
+```
+docker run -ti --rm --name AMGGPU \
+--device /dev/dri \
+izone/amdgpu dpkg -l amdgpu
+```
 ```
 ```
 ```
 docker run -ti --rm --name AMGGPU \
---device /dev/kfd \
 --device /dev/dri \
 izone/amdgpu bash
 ```
