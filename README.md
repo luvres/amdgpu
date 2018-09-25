@@ -6,7 +6,6 @@
 #### clinfo
 ```
 docker run -ti --rm --name AMGGPU \
---device /dev/kfd \
 --device /dev/dri \
 izone/amdgpu clinfo
 ```
@@ -28,6 +27,6 @@ docker build -t izone/amdgpu .
 docker build -t izone/amdgpu:17.40.2712 -f Dockerfile_17.40.2712 .
 ```
 ```
-docker build -t izone/amdgpu:18.20-606296 .
+docker build -t izone/amdgpu:18.30-641594 .
 ```
 
