@@ -9,8 +9,8 @@ MAINTAINER Leonardo Loures <luvres@hotmail.com>
 # https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-18.30-641594.tar.xz
 
 RUN \
-    amdgpu_version="amdgpu-pro-18.30-641594" \
-    && url="http://support.amd.com https://www2.ati.com/drivers/linux/ubuntu/${amdgpu_version}.tar.xz" \
+    amdgpu_version="amdgpu-pro-18.40-673869-ubuntu-16.04" \
+    && url="http://support.amd.com https://drivers.amd.com/drivers/linux/${amdgpu_version}.tar.xz" \
   \
 	&& cd \
 	&& dpkg --add-architecture i386 \

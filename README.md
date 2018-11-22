@@ -22,6 +22,6 @@ izone/amdgpu dpkg -l amdgpu
 docker build -t izone/amdgpu .
 ```
 ```
-docker build -t izone/amdgpu:18.30-641594 .
+docker build -t izone/amdgpu:18.40-67386 .
 ```
 
