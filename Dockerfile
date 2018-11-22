@@ -7,6 +7,7 @@ MAINTAINER Leonardo Loures <luvres@hotmail.com>
 ## Xenial 16.04
 # https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-18.20-606296.tar.xz
 # https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-18.30-641594.tar.xz
+# https://drivers.amd.com/drivers/linux/amdgpu-pro-18.40-673869-ubuntu-16.04.tar.xz
 
 RUN \
     amdgpu_version="amdgpu-pro-18.40-673869-ubuntu-16.04" \
