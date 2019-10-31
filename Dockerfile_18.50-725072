@@ -2,10 +2,10 @@ FROM ubuntu:bionic
 MAINTAINER Leonardo Loures <luvres@hotmail.com>
 
 ## Bionic 18.04
-# https://drivers.amd.com/drivers/linux/amdgpu-pro-19.30-855429-ubuntu-18.04.tar.xz
+# https://drivers.amd.com/drivers/linux/amdgpu-pro-18.50-725072-ubuntu-18.04.tar.xz
 
 RUN \
-	amdgpu_version="amdgpu-pro-19.30-855429-ubuntu-18.04" \
+	amdgpu_version="amdgpu-pro-18.50-725072-ubuntu-18.04" \
 	&& url="http://support.amd.com https://drivers.amd.com/drivers/linux/${amdgpu_version}.tar.xz" \
   \
 	&& cd \

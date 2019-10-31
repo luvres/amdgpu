@@ -29,7 +29,7 @@ izone/amdgpu dpkg -l amdgpu-lib
 ```
 docker run -ti --rm --name AMGGPU \
 --device=/dev/dri \
-izone/amdgpu:18.40 dpkg -l amdgpu
+izone/amdgpu:18.50 dpkg -l amdgpu
 ```
 
 -----
@@ -38,10 +38,10 @@ izone/amdgpu:18.40 dpkg -l amdgpu
 docker build -t izone/amdgpu .
 ```
 ```
-docker build -t izone/amdgpu:18.40 -f Dockerfile_18.40-673869 .
+docker build -t izone/amdgpu:18.50 -f Dockerfile_18.50-725072 .
 ```
 ```
-docker build -t izone/amdgpu:18.40 -f Dockerfile_nvidia .
+docker build -t izone/amdgpu:18.50 -f Dockerfile_nvidia .
 ```
 ```
 docker build -t izone/amdgpu:opencl -f Dockerfile_opencl .
